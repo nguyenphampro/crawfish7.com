@@ -1,0 +1,17 @@
+#backToTop
+	width: 3rem
+	height: 3rem
+	z-index: 99999
+	// +bor-rad(50%)
+	+flex-center()
+	opacity: .5
+	cursor: pointer
+	+tran(.4s)
+	+pos(fixed, null null 1rem 1rem)
+	background: rgba(244,244,244,.7)
+	+media-breakpoint-up(md)
+		// +pos(fixed, null null 4rem 1rem)
+	em
+		+fz(r(20px))
+	&:hover
+		opacity: 1

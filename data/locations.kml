@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for Crawfish 7.</name>
+		<atom:author>
+			<atom:name>Nguyen Pham</atom:name>
+		</atom:author>
+		<atom:link rel="related" href="https://crawfish7.com" />
+		<Folder>
+			<Placemark>
+				<name><![CDATA[Crawfish 7]]></name>
+				<address><![CDATA[5302 E Belknap St d, Haltom City, TX 76117, Fort Worth, Texas, 76117, United States]]></address>
+				<phoneNumber><![CDATA[ 1 (817) 744-8754]]></phoneNumber>
+				<description><![CDATA[Crawfish7 được khai sinh với mong muốn đem lại sự giao thoa về văn hóa lẫn ẩm thực. Một hương vị đầy ắp quê hương Việt Nam hòa quyện vào với sắc thái lẫn nét độc đáo của nước Mỹ.]]></description>
+				<Point>
+					<coordinates>-97.2692476,32.7951178,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

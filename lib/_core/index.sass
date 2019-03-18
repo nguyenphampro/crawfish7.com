@@ -1,0 +1,69 @@
+html, body
+	font-size: 16px
+	background: #fff
+	line-height: 1.5
+	overflow-x: hidden
+	margin: 0
+	font-family: 'Quicksand', sans-serif
+	font-weight: 400
+	color: #333333
+	// +media-breakpoint-up(lg)
+	// 	+fz(20px)
+img
+	max-width: 100%
+@font-face 
+	font-family: "Arial"
+	src: url("../fonts/arial.eot")
+	src: url("../fonts/arial.eot?#iefix") format("embedded-opentype"), url("../fonts/arial.otf") format("opentype"), url("../fonts/arial.svg") format("svg"), url("../fonts/arial.ttf") format("truetype"), url("../fonts/arial.woff") format("woff"), url("../fonts/arial.woff2") format("woff2") /* Modern Browsers */
+	font-weight: normal
+	font-style: normal
+.cfh-title
+	margin-bottom: 2rem
+	display: inline-flex
+	+pad(1rem)
+	position: relative
+	&:before
+		content: ''
+		width: 100%
+		height: 100%
+		background: #000000
+		opacity: .5
+		+pos(abs, 0 null null 0)
+	.sec-num
+		// +pos(abs,null null -17px -48px)
+		+pos(abs,null null -43px -25px)
+		span
+			// +fz(r(150px))
+			+fz(5rem)
+			+lh(r(150px))
+			+fw(800)
+			opacity: .25
+	h2
+		// +fz(r(72px))
+		+fz(2rem)
+		transform: translateX(50%)
+		text-transform: uppercase
+		z-index: 10
+		+fw(700)
+		+lh(1.5)
+		margin: 0
+		// +pos(abs, 50% null null 50%)
+		// transform: translateY(-50%)
+	+media-breakpoint-up(md)
+		+pad(2rem)
+		.sec-num
+			+pos(abs,null null -27px -35px)
+			span
+				+fz(r(120px))
+		h2
+			+fz(r(46px))
+	+media-breakpoint-up(lg)
+		margin-bottom: 0
+		.sec-num
+			+pos(abs,null null -17px -48px)
+			span
+				+fz(r(150px))
+		h2
+			+fz(r(72px))
+p
+	margin-bottom: 0

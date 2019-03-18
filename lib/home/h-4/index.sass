@@ -1,0 +1,43 @@
+.cfh-home-4
+	background: $main
+	.cfh-title
+		margin-bottom: 0
+		justify-content: flex-end
+		&:before
+			opacity: .2
+		.sec-num
+			span
+				color: #fff
+		h2
+			color: #fff
+	.main-wrapper
+		+pad(2rem null)
+		.swiper-container
+			display: flex
+			flex-direction: column
+			height: 100%
+			.swiper-slide
+				img
+					max-height: 500px
+					width: 100%
+					height: 100%
+					object-fit: cover
+			.swiper-pagination
+				margin-top: r(20px)
+				position: relative
+				bottom: auto
+				left: auto
+				.swiper-pagination-bullet
+					background: #fff
+					opacity: 1
+					width: 10px
+					height: 10px
+					+mar(null r(7px))
+					&.swiper-pagination-bullet-active
+						box-shadow: 0 0 0 2px $main, 0 0 0 3px #fff
+	+media-breakpoint-up(md)
+		.main-wrapper
+			+pad(r(70px) null)
+			.swiper-container
+				.swiper-pagination
+					margin-top: r(30px)

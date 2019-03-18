@@ -1,0 +1,52 @@
+.cfh-home-5
+	background: url(../img/bg.png) center center no-repeat
+	background-attachment: fixed
+	+media-breakpoint-up(lg)
+		background: url(../img/bg.png) left center no-repeat
+		background-attachment: fixed
+	.cfh-title
+		margin-bottom: 0
+		&:before
+			background: $extra
+			opacity: 1
+		h2
+			background: linear-gradient(to right, #fff 0%, #fff calc(50% + 1rem), $extra 50%)
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		.sec-num
+			span
+				color: #fff
+	.main-wrapper
+		+pad(2rem 15px)
+		.contact
+			margin-top: r(20px)
+			a
+				text-decoration: none
+				position: relative
+				color: #003333
+				z-index: 2
+				&:before
+					content: ''
+					width: 75%
+					height: 7px
+					background: $main
+					+pos(abs, null null 0 0)
+					z-index: -1
+		.map
+			margin-top: r(30px)
+	+media-breakpoint-up(lg)
+		.cfh-title
+			h2
+				background: linear-gradient(to right, #fff 0%, #fff calc(50% + 2rem), $extra 50%)
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+		.main-wrapper
+			background: $extra
+			color: #fff
+			+pad(2rem 3rem)
+			.contact
+				a
+					color: #fff
+	+media-breakpoint-up(xl)
+		.main-wrapper
+			+pad(r(60px) r(150px))

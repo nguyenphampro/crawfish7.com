@@ -1,0 +1,52 @@
+.cfh-footer
+	background: #0e1227 
+	.main-wrapper
+		+pad(3rem null 2rem null)
+		color: #797a81
+		text-align: center
+		.logo
+			+mar(null auto)
+			max-width: 160px
+			img
+				filter: brightness(0) invert(1)
+		.info
+			margin-top: 1rem
+		.desc
+			margin-top: 1rem
+			max-width: 600px
+			+mar(null auto)
+		.social
+			ul 
+				list-style: none
+				+mar(1rem 0)
+				+pad(0)
+				li
+					list-style: none
+					display: inline-block
+					+mar(0 .5rem)
+					a
+						color: #0e1227
+						line-height: 2.5rem
+						width: 2.5rem
+						height: 2.5rem
+						border-radius: 50%
+						background: rgba(255,255,255,.2)
+						display: block
+						&:hover 
+							background: $main
+	.copyright
+		text-align: center
+		p
+			+pad(15px)
+			color: #ffffff
+			+fz(r(14px))
+			opacity: .8
+	+media-breakpoint-up(md)
+		.copyright
+			justify-content: flex-end
+			display: flex
+			p
+				+pad(r(10px) 120px)
+				background: #ffffff
+				color: #333
+				opacity: 1
