@@ -17,3 +17,19 @@ block main
 	include ../lib/home/h-5/index.pug
 block footer
 	include ../lib/footer/index.pug
+	//- button.btn.btn-primary.modal-toggle#modal-toggle(type="button") Launch demo modal
+	// Modal
+	.modal#modal
+		.modal-overlay.modal-toggle
+		.modal-wrapper.modal-transition
+			.modal-header
+				button.modal-close.modal-toggle
+					i.fa.fa-times-circle
+				h2.modal-heading May 2019 Special Check In Event
+			.modal-body
+				.modal-content
+					.img
+						a(href="https://www.facebook.com/crawfish.seven/?ref=bookmarks")
+							img(src="./img/adv.jpg")
+					//- button.modal-toggle Update
+

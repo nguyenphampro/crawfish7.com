@@ -1,5 +1,6 @@
 {
     "scripts": [
+        "./bower_components/jquery/dist/jquery.min.js",
         "./bower_components/swiper/dist/js/swiper.js",
         "./bower_components/aos/dist/aos.js",
         "./scripts/_mapping.js",
